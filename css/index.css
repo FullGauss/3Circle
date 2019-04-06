@@ -7,11 +7,17 @@
   width: 500px;
   height: 500px;
   border-radius: 250px;
-  background-color: red;
-
+  box-sizing: border-box;
+  background-color:#00CED1;
+  border-top: 3px solid #00008B;
+  border-bottom: 3px solid #00008B;
 }
+
+
 .circle1:hover {
-  background-color: rgb(19, 19, 19);
+  transition: 300ms;
+  background-color: #1E90FF;
+  transform: rotate(90deg);
 }
 .circle2 {
   position: relative;
@@ -20,11 +26,15 @@
   width: 300px;
   height: 300px;
   border-radius: 150px;
-  background-color: green;
+  background-color:#00CED1;
+  border-top: 3px solid #00008B;
+  border-bottom: 3px solid #00008B;
 
 }
 .circle2:hover {
-  background-color: rgb(90, 105, 84);
+  transition: 300ms;
+  background-color:#1E90FF;
+  transform: rotate(90deg);
 }
 .circle3 {
   position: relative;
@@ -33,20 +43,19 @@
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  background-color: rgb(3, 56, 105);
+  background-color:#00CED1;
+  border-top: 3px solid #00008B;
+  border-bottom: 3px solid #00008B;
+
   }
 .circle3:hover {
-  background-color: rgb(194, 182, 18);
+  transition: 300ms;
+  background-color: #1E90FF;
+  transform: rotate(90deg);
 }
-.triangle-right {
+.trianglePlay {
   position: relative;
-  width: 0px;
-  bottom: 50rem;
+  bottom: 49.5rem;
   left: 13rem;
-	border-top: 50px solid transparent;
-	border-left: 100px solid rgb(231, 16, 195);
-	border-bottom: 50px solid transparent;
-}
-.triangle-right:active{
- 
+  width: 0px;
 }
